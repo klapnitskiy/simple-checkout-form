@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form {
+  max-width: 450px;
 }
